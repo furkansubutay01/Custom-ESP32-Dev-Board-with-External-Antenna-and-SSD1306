@@ -1,0 +1,23 @@
+# Altium geçici dosyaları
+*.LOG
+*.tmp
+*.bak
+*.ddb
+*.zip
+*.rar
+
+# Altium history klasörleri
+History/
+__Previews/
+
+# Windows gereksiz dosyaları
+Thumbs.db
+Desktop.ini
+
+# macOS gereksiz dosyaları
+.DS_Store
+
+# OutJob ve otomatik çıktı klasörleri (manuel seçilebilir)
+*.OutJob
+Project Outputs/*
+Simulation Outputs/*
