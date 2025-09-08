@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=ESP32-S3.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=ESP32-S3.SchDoc|FileName=Main Sheet.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=ESP32-S3.SchDoc|FileName=Power.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ESP32-S3.SchDoc|FileName=SSD1306.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ESP32-S3.SchDoc|FileName=USB-C + UART.SchDoc|SheetNumber=4
