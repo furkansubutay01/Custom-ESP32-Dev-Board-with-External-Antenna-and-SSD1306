@@ -219,6 +219,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWJPDKPF
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ESP32 + SSD1306 + External Antenna\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
