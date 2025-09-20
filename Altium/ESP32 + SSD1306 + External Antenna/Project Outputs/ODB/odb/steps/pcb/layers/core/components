@@ -1,0 +1,1511 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+
+#
+#Component attribute text strings
+#
+
+# CMP 0
+CMP 11 34.8250002 12.7499999 315 N Y1 40_MHz ;0=1,1=0.6000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url '//media.digikey.com/pdf/Data%20Sheets/NDK%20PDFs/NX3225SA-40M-EXS00A-CS03880.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/ndk-america-inc/NX3225SA-40M-EXS00A-CS03880/5015625'
+PRP ESR_(Equivalent_Series_Resistance) '50 Ohms'
+PRP Frequency '40 MHz'
+PRP Frequency_Stability '±17ppm'
+PRP Frequency_Tolerance '±10ppm'
+PRP Height_-_Seated_(Max) '0.024_ (0.60mm)'
+PRP lastupdated '3.06.2024 20:02:21'
+PRP Lifecycle_Status 'Active'
+PRP Load_Capacitance '10pF'
+PRP manufacturer 'NDK America, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Operating_Mode 'Fundamental'
+PRP Operating_Temperature '-40°C ~ 85°C'
+PRP Package_/_Case '4-SMD, No Lead'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'NX3225SA-40M-EXS00A-CS03880'
+PRP Part_Status 'Active'
+PRP partid '586'
+PRP price '0.36'
+PRP series 'NX3225SA'
+PRP Size_/_Dimension '0.126_ L x 0.098_ W (3.20mm x 2.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '644-1249-1-ND'
+PRP Type 'MHz Crystal'
+PRP value '40 MHz'
+TOP 0 34.61286956 11.40649738 225 N 2 1 1
+TOP 1 36.16850272 12.96213054 225 N 59 34 2
+TOP 2 35.03713084 14.09350242 225 N 1 1 3
+TOP 3 33.48149768 12.53786926 225 N 59 35 4
+#
+# CMP 1
+CMP 15 16.62500104 24.19999986 180 N U4 AMS1117-3.3 ;0=1,1=1.8000
+PRP Check_prices 'https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=eda'
+PRP MF 'Advanced Monolithic Systems'
+PRP MP 'AMS1117-3.3'
+PRP Package 'SOT-223 Seeed Technology'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=snap'
+PRP value ''
+TOP 0 19.9700007 21.90999936 180 N 59 23 1
+TOP 1 19.9700007 24.19999986 180 N 5 4 2
+TOP 2 19.9700007 26.49000036 180 N 61 7 3
+TOP 3 13.28000138 24.19999986 180 N 0 13 4
+#
+# CMP 2
+CMP 17 52.00000014 16.51 0 N U3 SSD1306 ;0=2,1=0.0000
+TOP 0 48.19000014 28.69749912 0 N 59 5 0
+TOP 1 50.73000014 28.69749912 0 N 5 0 1
+TOP 2 53.27000014 28.69749912 0 N 49 0 2
+TOP 3 55.81000014 28.69749912 0 N 50 0 3
+#
+# CMP 3
+CMP 16 11.00000086 16.51 0 N U2 USBLC6-2SC6 ;0=1,1=0.0000
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=eda'
+PRP MF 'STMicroelectronics'
+PRP MP 'USBLC6-2SC6'
+PRP Package 'SOT-23-6 STMicroelectronics'
+PRP price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/USBLC6-2SC6/STMicroelectronics/view-part/?ref=snap'
+PRP value ''
+TOP 0 9.7450021 17.46000064 0 N 9 0 1
+TOP 1 9.7450021 16.51 0 N 59 17 2
+TOP 2 9.7450021 15.55999936 0 N 10 0 3
+TOP 3 12.25499962 15.55999936 0 N 8 0 4
+TOP 4 12.25499962 16.51 0 N 6 0 5
+TOP 5 12.25499962 17.46000064 0 N 7 0 6
+#
+# CMP 4
+CMP 5 28.49999888 16.51 135 N U1 ESP32-S3R8 ;0=1,1=0.0000
+PRP NexarPartId '118292493'
+TOP 0 32.7971912 17.13023752 135 N 24 1 1
+TOP 1 32.5143495 17.41307922 135 N 4 0 2
+TOP 2 32.23150526 17.69592346 135 N 4 1 3
+TOP 3 31.94866356 17.97876516 135 N 58 4 4
+TOP 4 31.66582186 18.26160686 135 N 60 4 5
+TOP 5 31.38297762 18.5444511 135 N 57 1 6
+TOP 6 31.10013592 18.8272928 135 N 56 1 7
+TOP 7 30.81729168 19.11013704 135 N 55 1 8
+TOP 8 30.53444998 19.39297874 135 N 54 1 9
+TOP 9 30.25160574 19.67582298 135 N 53 1 10
+TOP 10 29.96876404 19.95866468 135 N 52 1 11
+TOP 11 29.68592234 20.24150638 135 N 51 1 12
+TOP 12 29.4030781 20.52435062 135 N 50 1 13
+TOP 13 29.1202364 20.80719232 135 N 49 1 14
+TOP 14 27.87976136 20.80719232 135 N 48 1 15
+TOP 15 27.59691966 20.52435062 135 N 47 1 16
+TOP 16 27.31407542 20.24150638 135 N 46 1 17
+TOP 17 27.03123372 19.95866468 135 N 45 1 18
+TOP 18 26.74839202 19.67582298 135 N 44 1 19
+TOP 19 26.46554778 19.39297874 135 N 5 7 20
+TOP 20 26.18270608 19.11013704 135 N 43 1 21
+TOP 21 25.89986184 18.8272928 135 N 42 1 22
+TOP 22 25.61702014 18.5444511 135 N 41 1 23
+TOP 23 25.3341759 18.26160686 135 N 40 1 24
+TOP 24 25.0513342 17.97876516 135 N 8 1 25
+TOP 25 24.7684925 17.69592346 135 N 7 1 26
+TOP 26 24.48564826 17.41307922 135 N 39 1 27
+TOP 27 24.20280656 17.13023752 135 N 0 2 28
+TOP 28 24.20280656 15.88976248 135 N 3 3 29
+TOP 29 24.48564826 15.60692078 135 N 14 1 30
+TOP 30 24.7684925 15.32407654 135 N 12 1 31
+TOP 31 25.0513342 15.04123484 135 N 16 1 32
+TOP 32 25.3341759 14.75839314 135 N 17 1 33
+TOP 33 25.61702014 14.4755489 135 N 13 1 34
+TOP 34 25.89986184 14.1927072 135 N 15 1 35
+TOP 35 26.18270608 13.90986296 135 N 25 1 36
+TOP 36 26.46554778 13.62702126 135 N 26 1 37
+TOP 37 26.74839202 13.34417702 135 N 38 1 38
+TOP 38 27.03123372 13.06133532 135 N 37 1 39
+TOP 39 27.31407542 12.77849362 135 N 36 1 40
+TOP 40 27.59691966 12.49564938 135 N 35 1 41
+TOP 41 27.87976136 12.21280768 135 N 34 1 42
+TOP 42 29.1202364 12.21280768 135 N 33 1 43
+TOP 43 29.4030781 12.49564938 135 N 32 1 44
+TOP 44 29.68592234 12.77849362 135 N 31 1 45
+TOP 45 29.96876404 13.06133532 135 N 5 8 46
+TOP 46 30.25160574 13.34417702 135 N 30 1 47
+TOP 47 30.53444998 13.62702126 135 N 29 1 48
+TOP 48 30.81729168 13.90986296 135 N 19 0 49
+TOP 49 31.10013592 14.1927072 135 N 18 1 50
+TOP 50 31.38297762 14.4755489 135 N 28 1 51
+TOP 51 31.66582186 14.75839314 135 N 27 1 52
+TOP 52 31.94866356 15.04123484 135 N 2 0 53
+TOP 53 32.23150526 15.32407654 135 N 1 0 54
+TOP 54 32.5143495 15.60692078 135 N 5 9 55
+TOP 55 32.7971912 15.88976248 135 N 5 10 56
+TOP 56 28.49999888 16.51 135 N 59 33 57
+#
+# CMP 5
+CMP 12 6.4999997 5.02000012 0 N S2 B3FS-1012P ;0=1,1=4.3000
+PRP Actuator_Height_off_PCB__Vertical '4.30mm'
+PRP Actuator_Orientation 'Top Actuated'
+PRP Actuator_Type 'Standard'
+PRP Circuit 'SPST-NO'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-1012P/SW1237CT-ND/2747253'
+PRP Contact_Rating_@_Voltage '0.05A @ 24VDC'
+PRP lastupdated '30.03.2020 15:12:46'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Omron Electronics Inc-EMC Div'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Operating_Force '150gf'
+PRP Operating_Temperature '-25°C ~ 70°C'
+PRP Outline '6.30mm x 6.00mm'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'B3FS-1012P'
+PRP Part_Status 'Active'
+PRP price '0.35'
+PRP series 'B3FS'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'SW1237CT-ND'
+PRP Switch_Function 'Off-Mom'
+PRP Termination_Style 'Gull Wing'
+PRP Illumination 'Non-Illuminated'
+TOP 0 10.49999932 2.76999954 0 N 59 26 1
+TOP 1 2.50000008 2.76999954 0 N 59 25 2
+TOP 2 10.49999932 7.2700007 0 N 58 1 3
+TOP 3 2.50012962 7.2700007 0 N 58 2 4
+#
+# CMP 6
+CMP 12 6.4999997 27.99999988 180 N S1 B3FS-1012P ;0=1,1=4.3000
+PRP Actuator_Height_off_PCB__Vertical '4.30mm'
+PRP Actuator_Orientation 'Top Actuated'
+PRP Actuator_Type 'Standard'
+PRP Circuit 'SPST-NO'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3FS-1012P/SW1237CT-ND/2747253'
+PRP Contact_Rating_@_Voltage '0.05A @ 24VDC'
+PRP lastupdated '30.03.2020 15:12:46'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Omron Electronics Inc-EMC Div'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Operating_Force '150gf'
+PRP Operating_Temperature '-25°C ~ 70°C'
+PRP Outline '6.30mm x 6.00mm'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'B3FS-1012P'
+PRP Part_Status 'Active'
+PRP price '0.35'
+PRP series 'B3FS'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'SW1237CT-ND'
+PRP Switch_Function 'Off-Mom'
+PRP Termination_Style 'Gull Wing'
+PRP Illumination 'Non-Illuminated'
+TOP 0 2.50000008 30.25000046 180 N 59 28 1
+TOP 1 10.49999932 30.25000046 180 N 59 27 2
+TOP 2 2.50000008 25.7499993 180 N 60 2 3
+TOP 3 10.49986978 25.7499993 180 N 60 3 4
+#
+# CMP 7
+CMP 13 16.62500104 5.94999826 0 N R7 1_kOhms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://www.vishay.com/docs/20043/crcwhpe3.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/vishay-dale/CRCW04021K00JNEDHP/2222560'
+PRP Composition 'Thick Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Automotive AEC-Q200, Pulse Withstanding'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP lastupdated '9.02.2024 20:30:06'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Vishay Dale'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'CRCW04021K00JNEDHP'
+PRP Part_Status 'Active'
+PRP partid '6693'
+PRP Power_(Watts) '0.2W, 1/5W'
+PRP price '0.01'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '1 kOhms'
+PRP series 'CRCW-HP'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 '541-1.0KYACT-ND'
+PRP Temperature_Coefficient '±200ppm/°C'
+PRP Tolerance '±5%'
+PRP value '1 kOhms'
+TOP 0 16.05000092 5.94999826 270 N 22 1 1
+TOP 1 17.20000116 5.94999826 270 N 5 19 2
+#
+# CMP 8
+CMP 13 8.50000078 9.51999874 0 N R6 10_kOhms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://www.vishay.com/docs/28760/mcat_pro.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/vishay-beyschlag/MCS0402MC1002FE000/MCS0402-10.0K-MFCT-ND/3883092'
+PRP Composition 'Thin Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Anti-Sulfur, Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.015_ (0.37mm)'
+PRP lastupdated '9.02.2024 20:30:21'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Vishay Beyschlag'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 175°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'MCS0402MC1002FE000'
+PRP Part_Status 'Active'
+PRP partid '3152'
+PRP Power_(Watts) '0.1W, 1/10W'
+PRP price '0.03'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '10 kOhms'
+PRP series 'MCS AT - Professional'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'MCS0402-10.0K-MFCT-ND'
+PRP Temperature_Coefficient '±50ppm/°C'
+PRP Tolerance '±1%'
+PRP value '10 kOhms'
+TOP 0 7.92500066 9.51999874 270 N 58 3 1
+TOP 1 9.0750009 9.51999874 270 N 5 6 2
+#
+# CMP 9
+CMP 18 10.00000032 19.0000001 180 N R5 5.1_kOhms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/yageo/AC0402JR-075K1L/5895695'
+PRP Composition 'Thick Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Automotive AEC-Q200, Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.015_ (0.37mm)'
+PRP lastupdated '31.08.2025 15:04:16'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'CutTape'
+PRP Part_Number 'AC0402JR-075K1L'
+PRP Part_Status 'Active'
+PRP partid '4690'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP price '0.01'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '5.1 kOhms'
+PRP series 'AC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'YAG3554CT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±5%'
+PRP value '5.1 kOhms'
+TOP 0 10.49999932 19.0000001 180 N 59 16 1
+TOP 1 9.50000132 19.0000001 180 N 21 0 2
+#
+# CMP 10
+CMP 18 10.00000032 13.99999994 180 N R4 5.1_kOhms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/yageo/AC0402JR-075K1L/5895695'
+PRP Composition 'Thick Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Automotive AEC-Q200, Moisture Resistant'
+PRP Height_-_Seated_(Max) '0.015_ (0.37mm)'
+PRP lastupdated '31.08.2025 15:04:16'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Yageo'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'CutTape'
+PRP Part_Number 'AC0402JR-075K1L'
+PRP Part_Status 'Active'
+PRP partid '4690'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP price '0.01'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '5.1 kOhms'
+PRP series 'AC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'YAG3554CT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±5%'
+PRP value '5.1 kOhms'
+TOP 0 10.49999932 13.99999994 180 N 59 15 1
+TOP 1 9.50000132 13.99999994 180 N 20 0 2
+#
+# CMP 11
+CMP 13 36.04999902 10.24999982 135 N R3 499_Ohms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402FT499R/1714756'
+PRP Composition 'Thick Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.016_ (0.40mm)'
+PRP lastupdated '9.02.2024 20:30:13'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Stackpole Electronics Inc'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 155°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'CutTape'
+PRP Part_Number 'RMCF0402FT499R'
+PRP Part_Status 'Active'
+PRP partid '4940'
+PRP Power_(Watts) '0.063W, 1/16W'
+PRP price '0.01'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '499 Ohms'
+PRP series 'RMCF'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'RMCF0402FT499RCT-ND'
+PRP Temperature_Coefficient '±100ppm/°C'
+PRP Tolerance '±1%'
+PRP value '499 Ohms'
+TOP 0 36.45658444 10.65658524 45 N 11 1 1
+TOP 1 35.6434136 9.8434144 45 N 19 1 2
+#
+# CMP 12
+CMP 13 8.50000078 23.50000126 0 N R2 10_kOhms ;0=1,1=0.4000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://www.vishay.com/docs/28760/mcat_pro.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/vishay-beyschlag/MCS0402MC1002FE000/MCS0402-10.0K-MFCT-ND/3883092'
+PRP Composition 'Thin Film'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Features 'Anti-Sulfur, Automotive AEC-Q200'
+PRP Height_-_Seated_(Max) '0.015_ (0.37mm)'
+PRP lastupdated '9.02.2024 20:30:21'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Vishay Beyschlag'
+PRP Minimum_Order '1'
+PRP Number_of_Terminations '2'
+PRP Operating_Temperature '-55°C ~ 175°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'MCS0402MC1002FE000'
+PRP Part_Status 'Active'
+PRP partid '3152'
+PRP Power_(Watts) '0.1W, 1/10W'
+PRP price '0.03'
+PRP Ratings 'AEC-Q200'
+PRP Resistance '10 kOhms'
+PRP series 'MCS AT - Professional'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 'MCS0402-10.0K-MFCT-ND'
+PRP Temperature_Coefficient '±50ppm/°C'
+PRP Tolerance '±1%'
+PRP value '10 kOhms'
+TOP 0 7.92500066 23.50000126 270 N 60 0 1
+TOP 1 9.0750009 23.50000126 270 N 5 5 2
+#
+# CMP 13
+CMP 10 36.40387182 18.58612996 225 N L2 3.3_nH ;0=1,1=0.5500
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-9101.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/murata-electronics/LQG15HH3N3C02D/6798466'
+PRP Current_Rating_(Amps) '800 mA'
+PRP DC_Resistance_(DCR) '125mOhm Max'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Frequency_-_Self_Resonant '6GHz'
+PRP Height_-_Seated_(Max) '0.022_ (0.55mm)'
+PRP lastupdated '19.07.2024 23:59:52'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Murata Electronics'
+PRP Material_-_Core 'Air'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'LQG15HH3N3C02D'
+PRP Part_Status 'Active'
+PRP partid '2999'
+PRP price '0.05'
+PRP Q_@_Freq '8 @ 100MHz'
+PRP Ratings 'AEC-Q200'
+PRP series 'LQG15'
+PRP Shielding 'Unshielded'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402 (1005 Metric)'
+PRP Supplier_Part_Number_1 '490-15041-1-ND'
+PRP Tolerance '±0.2nH'
+PRP Type 'Multilayer'
+PRP value '3.3 nH'
+PRP Inductance '3.3 nH'
+PRP Inductance_Frequency_-_Test '100 MHz'
+TOP 0 36.70439446 18.28560986 225 N 23 1 1
+TOP 1 36.10334918 18.88665006 225 N 24 0 2
+#
+# CMP 14
+CMP 6 35.68887198 21.0861275 45 N L1 2_nH ;0=1,1=0.6000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mhq1005075ha_en.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/tdk-corporation/MHQ1005075HA2N0STD25/21727258'
+PRP Current_Rating_(Amps) '1 A'
+PRP DC_Resistance_(DCR) '50mOhm Max'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Frequency_-_Self_Resonant '8GHz'
+PRP Height_-_Seated_(Max) '0.030_ (0.75mm)'
+PRP lastupdated '3.06.2024 20:12:06'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'TDK Corporation'
+PRP Material_-_Core 'Ceramic'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'MHQ1005075HA2N0STD25'
+PRP partid '7450'
+PRP price '0.07'
+PRP Q_@_Freq '20 @ 250MHz'
+PRP Ratings 'AEC-Q200'
+PRP series 'MHQ'
+PRP Shielding 'Unshielded'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0402'
+PRP Supplier_Part_Number_1 '445-MHQ1005075HA2N0STD25CT-ND'
+PRP Tolerance '±0.3nH'
+PRP Type 'Multilayer'
+PRP value '2 nH'
+PRP Inductance '2 nH'
+PRP Inductance_Frequency_-_Test '100 MHz'
+TOP 0 35.37774484 21.39725464 315 N 5 15 1
+TOP 1 35.99999912 20.77500036 315 N 4 2 2
+#
+# CMP 15
+CMP 1 24.06000014 31.52000046 90 N J6 1x6_Male_Pin ;0=2,1=0.0000
+TOP 0 30.41000014 31.52000046 90 N 43 0 1
+TOP 1 27.87000014 31.52000046 90 N 42 0 2
+TOP 2 25.33000014 31.52000046 90 N 41 0 3
+TOP 3 22.79000014 31.52000046 90 N 40 0 4
+TOP 4 20.25000014 31.52000046 90 N 59 7 5
+TOP 5 17.71000014 31.52000046 90 N 59 6 6
+#
+# CMP 16
+CMP 1 24.06000014 1.49999954 90 N J5 1x6_Male_Pin ;0=2,1=0.0000
+TOP 0 30.41000014 1.49999954 90 N 36 0 1
+TOP 1 27.87000014 1.49999954 90 N 37 0 2
+TOP 2 25.33000014 1.49999954 90 N 38 0 3
+TOP 3 22.79000014 1.49999954 90 N 26 0 4
+TOP 4 20.25000014 1.49999954 90 N 25 0 5
+TOP 5 17.71000014 1.49999954 90 N 39 0 6
+#
+# CMP 17
+CMP 0 52.00000014 31.52000046 90 N J4 1x16_Male_Pin ;0=2,1=0.0000
+TOP 0 71.05000014 31.52000046 90 N 5 1 1
+TOP 1 68.51000014 31.52000046 90 N 5 2 2
+TOP 2 65.97000014 31.52000046 90 N 57 0 3
+TOP 3 63.43000014 31.52000046 90 N 56 0 4
+TOP 4 60.89000014 31.52000046 90 N 55 0 5
+TOP 5 58.35000014 31.52000046 90 N 54 0 6
+TOP 6 55.81000014 31.52000046 90 N 53 0 7
+TOP 7 53.27000014 31.52000046 90 N 52 0 8
+TOP 8 50.73000014 31.52000046 90 N 51 0 9
+TOP 9 48.19000014 31.52000046 90 N 0 0 10
+TOP 10 45.65000014 31.52000046 90 N 0 1 11
+TOP 11 43.11000014 31.52000046 90 N 48 0 12
+TOP 12 40.57000014 31.52000046 90 N 47 0 13
+TOP 13 38.03000014 31.52000046 90 N 46 0 14
+TOP 14 35.49000014 31.52000046 90 N 45 0 15
+TOP 15 32.95000014 31.52000046 90 N 44 0 16
+#
+# CMP 18
+CMP 0 52.00000014 1.49999954 90 N J3 1x16_Male_Pin ;0=2,1=0.0000
+TOP 0 71.05000014 1.49999954 90 N 61 0 1
+TOP 1 68.51000014 1.49999954 90 N 61 1 2
+TOP 2 65.97000014 1.49999954 90 N 59 9 3
+TOP 3 63.43000014 1.49999954 90 N 59 8 4
+TOP 4 60.89000014 1.49999954 90 N 58 0 5
+TOP 5 58.35000014 1.49999954 90 N 27 0 6
+TOP 6 55.81000014 1.49999954 90 N 28 0 7
+TOP 7 53.27000014 1.49999954 90 N 18 0 8
+TOP 8 50.73000014 1.49999954 90 N 11 0 9
+TOP 9 48.19000014 1.49999954 90 N 29 0 10
+TOP 10 45.65000014 1.49999954 90 N 30 0 11
+TOP 11 43.11000014 1.49999954 90 N 31 0 12
+TOP 12 40.57000014 1.49999954 90 N 32 0 13
+TOP 13 38.03000014 1.49999954 90 N 33 0 14
+TOP 14 35.49000014 1.49999954 90 N 34 0 15
+TOP 15 32.95000014 1.49999954 90 N 35 0 16
+#
+# CMP 19
+CMP 8 7.50000024 16.51 90 N J2 1054500101 ;0=1,1=3.2400
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.molex.com/pdm_docs/ps/PS-105448-001.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891'
+PRP Connector_Type 'USB - C (Type - C)'
+PRP Current_Rating_(Amps) '0.25A, 1A, 5A'
+PRP Gender 'Receptacle'
+PRP lastupdated '6.06.2020 02:14:04'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Molex'
+PRP Mating_Cycles '10000'
+PRP Minimum_Order '1'
+PRP Mounting_Feature 'Horizontal'
+PRP Mounting_Type 'Surface Mount, Right Angle; Through Hole'
+PRP Number_of_Contacts '24'
+PRP Number_of_Ports '1'
+PRP Operating_Temperature '-30°C ~ 85°C'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '1054500101'
+PRP Part_Status 'Active'
+PRP price '1.22'
+PRP series '105445'
+PRP Shielding 'Shielded'
+PRP Specifications 'USB 3.1 (USB 3.1 Gen 2, Superspeed+)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'WM12856CT-ND'
+PRP Termination 'Solder'
+PRP Voltage_-_Rated '30VAC/DC'
+TOP 0 8.15500274 19.50999908 90 N 59 50 A1
+TOP 1 8.15500274 19.01000008 90 N 0 12 A2
+TOP 2 8.15500274 18.50999854 90 N 0 11 A3
+TOP 3 8.15500274 18.00999954 90 N 6 3 A4
+TOP 4 8.15500274 17.509998 90 N 21 1 A5
+TOP 5 8.15500274 17.009999 90 N 9 1 A6
+TOP 6 8.15500274 16.010001 270 N 10 1 A7
+TOP 7 8.15500274 15.510002 270 N 0 10 A8
+TOP 8 8.15500274 15.01000046 270 N 6 4 A9
+TOP 9 8.15500274 14.51000146 270 N 0 9 A10
+TOP 10 8.15500274 14.00999992 270 N 0 8 A11
+TOP 11 8.15500274 13.51000092 270 N 59 51 A12
+TOP 12 6.84500282 13.41000112 90 N 59 52 B1
+TOP 13 6.8550028 14.25999942 90 N 0 7 B2
+TOP 14 6.8550028 14.75999842 90 N 0 6 B3
+TOP 15 6.8550028 15.25999996 90 N 6 5 B4
+TOP 16 6.8550028 15.75999896 90 N 20 1 B5
+TOP 17 6.8550028 16.2600005 90 N 9 2 B6
+TOP 18 6.8550028 16.7599995 270 N 10 2 B7
+TOP 19 6.8550028 17.26000104 270 N 0 5 B8
+TOP 20 6.8550028 17.76000004 270 N 6 6 B9
+TOP 21 6.8550028 18.26000158 270 N 0 4 B10
+TOP 22 6.8550028 18.76000058 270 N 0 3 B11
+TOP 23 6.8550028 19.60999888 90 N 59 53 B12
+TOP 24 7.74500356 12.19000102 270 N 59 1 S
+TOP 25 7.74500356 20.82999898 90 N 59 2 S
+TOP 26 2.3950041 12.21000098 270 N 59 3 S
+TOP 27 2.3950041 20.84999894 90 N 59 4 S
+#
+# CMP 20
+CMP 9 71.00000024 16.51 0 N J1 0731000114 ;0=2,1=0.0000
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.molex.com/pdm_docs/sd/731000114_sd.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/molex/0731000114/1465147'
+PRP Connector_Style 'SMA'
+PRP Connector_Type 'Receptacle, Female Socket'
+PRP Contact_Termination 'Solder'
+PRP Fastening_Type 'Threaded'
+PRP Frequency_-_Max '18 GHz'
+PRP Housing_Color 'Gold'
+PRP lastupdated '29.06.2022 18:00:24'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Molex'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Through Hole, Right Angle'
+PRP Number_of_Ports '1'
+PRP packaging 'Tray'
+PRP Part_Number '0731000114'
+PRP Part_Status 'Active'
+PRP price '3.19'
+PRP series '73100'
+PRP Shield_Termination 'Solder'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'WM5525-ND'
+PRP Impedance '50Ohm'
+TOP 0 73.54000024 19.05 90 N 59 10 G
+TOP 1 73.54000024 13.97 180 N 59 11 G
+TOP 2 68.46000024 13.97 270 N 59 12 G
+TOP 3 68.46000024 19.05 0 N 59 13 G
+TOP 4 71.00000024 16.51 180 N 23 0 S
+#
+# CMP 21
+CMP 4 16.00000102 16.51 90 N FB1 33_Ohms_@_100_MHz ;0=1,1=0.5200
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://calchip.com/wp-content/uploads/2023/05/fb_series.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/FB100505T-330Y-S/22463427'
+PRP Current_Rating_(Max) '300mA'
+PRP DC_Resistance_(DCR)_(Max) '400mOhm'
+PRP Device_Package '0402 (1005 Metric)'
+PRP Filter_Type 'Signal Line'
+PRP Height_(Max) '0.024_ (0.60mm)'
+PRP lastupdated '3.06.2024 19:50:49'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Number_of_Lines '1'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'FB100505T-330Y-S'
+PRP partid '3685'
+PRP price '0.02'
+PRP series 'FB'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-FB100505T-330Y-SCT-ND'
+PRP value '33 Ohms @ 100 MHz'
+PRP Impedance_@_Frequency '33 Ohms @ 100 MHz'
+TOP 0 16.00000102 16.94999912 0 N 6 2 1
+TOP 1 16.00000102 16.06999834 0 N 61 3 2
+#
+# CMP 22
+CMP 7 16.62500104 4.19999922 0 N D1 Red ;0=1,1=0.4500
+PRP Color 'Red'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://www.qt-brightek.com/datasheet/QBLP601-R1.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP601-R1/22106643'
+PRP Configuration 'Standard'
+PRP Current_-_Test '20mA'
+PRP Device_Package '0603 (1608 Metric)'
+PRP Height_(Max) '0.70mm'
+PRP lastupdated '3.06.2024 19:59:37'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '1.10mm x 0.80mm'
+PRP Lens_Style 'Rectangle with Flat Top'
+PRP Lens_Transparency 'Clear'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'QT Brightek (QTB)'
+PRP Millicandela_Rating '9mcd'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount'
+PRP Package_/_Case '0603 (1608 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'QBLP601-R1'
+PRP partid '1462'
+PRP price '0.06'
+PRP series 'QBLP601'
+PRP Size_/_Dimension '1.60mm L x 0.80mm W'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Device_Package '0603'
+PRP Supplier_Part_Number_1 '1516-QBLP601-R1CT-ND'
+PRP value 'Red'
+PRP Viewing_Angle '140°'
+PRP Voltage_-_Forward_(Vf)_(Typ) '2V'
+PRP Wavelength_-_Dominant '623nm'
+PRP Wavelength_-_Peak '628nm'
+TOP 0 15.875 4.19999922 270 N 22 0 1
+TOP 1 17.37500208 4.19999922 270 N 59 48 2
+#
+# CMP 23
+CMP 2 4.50000116 9.51999874 0 N C23 1__F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/gmc_series-2.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X7R105K10NT/18151137'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '9.02.2024 20:03:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'GMC04X7R105K10NT'
+PRP Part_Status 'Active'
+PRP partid '49948'
+PRP price '0.02'
+PRP series 'GMC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-GMC04X7R105K10NTCT-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.55mm)'
+PRP Tolerance '±10%'
+PRP value '1 µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 4.06000204 9.51999874 270 N 59 49 1
+TOP 1 4.94000282 9.51999874 270 N 58 5 2
+#
+# CMP 24
+CMP 3 14.2250033 19.549999 0 N C22 10__F ;0=1,1=1.1500
+PRP Applications 'General Purpose'
+PRP Capacitance '10 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://www.samsungsem.com/kr/support/product-search/mlcc/CL21X106KAYNNNE.jsp'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21X106KAYNNNE/5961182'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:03'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Samsung Electro-Mechanics'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 105°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'CL21X106KAYNNNE'
+PRP Part_Status 'Active'
+PRP partid '4781'
+PRP price '0.04'
+PRP series 'CL'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1276-6698-1-ND'
+PRP Temperature_Coefficient 'X6S'
+PRP Thickness_(Max) '0.057_ (1.45mm)'
+PRP Tolerance '±10%'
+PRP value '10 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 13.42500236 19.549999 270 N 59 38 1
+TOP 1 15.0250017 19.549999 270 N 5 12 2
+#
+# CMP 25
+CMP 3 19.17500356 19.549999 180 N C21 0.1_F ;0=1,1=1.1500
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/LD-Series.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/LD055C104KAB2A/478-4931-1-ND/1858877'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '2.09.2020 01:04:40'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'LD055C104KAB2A'
+PRP Part_Status 'Active'
+PRP partid '3356'
+PRP price '0.16'
+PRP series 'LD'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.01mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-4931-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.94mm)'
+PRP Tolerance '±10%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 19.9750045 19.549999 90 N 59 37 1
+TOP 1 18.37500516 19.549999 90 N 5 11 2
+#
+# CMP 26
+CMP 3 19.37499808 28.85000072 180 N C20 0.1_F ;0=1,1=1.1500
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/LD-Series.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/LD055C104KAB2A/478-4931-1-ND/1858877'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '2.09.2020 01:04:40'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'LD055C104KAB2A'
+PRP Part_Status 'Active'
+PRP partid '3356'
+PRP price '0.16'
+PRP series 'LD'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.01mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-4931-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.037_ (0.94mm)'
+PRP Tolerance '±10%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '50V'
+TOP 0 20.17499902 28.85000072 90 N 59 21 1
+TOP 1 18.57499968 28.85000072 90 N 61 5 2
+#
+# CMP 27
+CMP 3 14.32499802 28.85000072 0 N C19 10__F ;0=1,1=1.1500
+PRP Applications 'General Purpose'
+PRP Capacitance '10 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://www.samsungsem.com/kr/support/product-search/mlcc/CL21X106KAYNNNE.jsp'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21X106KAYNNNE/5961182'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:16:03'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Samsung Electro-Mechanics'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 105°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'CL21X106KAYNNNE'
+PRP Part_Status 'Active'
+PRP partid '4781'
+PRP price '0.04'
+PRP series 'CL'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1276-6698-1-ND'
+PRP Temperature_Coefficient 'X6S'
+PRP Thickness_(Max) '0.057_ (1.45mm)'
+PRP Tolerance '±10%'
+PRP value '10 µF'
+PRP Voltage_-_Rated '25V'
+TOP 0 13.52499708 28.85000072 270 N 59 22 1
+TOP 1 15.12499642 28.85000072 270 N 61 6 2
+#
+# CMP 28
+CMP 3 16.00000102 13.99999994 0 N C18 4.7__F ;0=1,1=1.1500
+PRP Applications 'Automotive, Bypass, Decoupling'
+PRP Capacitance '4.7 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://api.kemet.com/component-edge/download/datasheet/C0805C475J4RACAUTO.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/kemet/C0805C475J4RACAUTO/7427546'
+PRP Device_Package '0805 (2012 Metric)'
+PRP lastupdated '9.02.2024 20:15:37'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'KEMET'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0805 (2012 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'C0805C475J4RACAUTO'
+PRP Part_Status 'Active'
+PRP partid '39263'
+PRP price '0.12'
+PRP Ratings 'AEC-Q200'
+PRP series 'SMD Auto X7R'
+PRP Size_/_Dimension '0.079_ L x 0.049_ W (2.00mm x 1.25mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '399-15716-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.055_ (1.40mm)'
+PRP Tolerance '±5%'
+PRP value '4.7 µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 15.20000008 13.99999994 270 N 59 20 1
+TOP 1 16.79999942 13.99999994 270 N 61 4 2
+#
+# CMP 29
+CMP 2 17.50000056 16.51 90 N C17 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/X7RDielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YC104JAT4A/478-11502-1-ND/8107703'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'CutTape'
+PRP Part_Number '0402YC104JAT4A'
+PRP Part_Status 'Active'
+PRP partid '2382'
+PRP price '0.10'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11502-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 17.50000056 16.94999912 0 N 59 19 1
+TOP 1 17.50000056 16.06999834 0 N 61 2 2
+#
+# CMP 30
+CMP 2 14.49999894 16.51 270 N C16 10000pF ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '10nF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/X7RDielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YC103JAT4A/478-12448-1-ND/9749300'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YC103JAT4A'
+PRP Part_Status 'Active'
+PRP partid '6953'
+PRP price '0.06'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-12448-1-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '10000pF'
+PRP Voltage_-_Rated '16V'
+TOP 0 14.49999894 16.07000088 180 N 59 18 1
+TOP 1 14.49999894 16.95000166 180 N 6 1 2
+#
+# CMP 31
+CMP 2 38.46000182 16.65000226 225 N C15 1__F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '10 nF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/gmc_series-2.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X7R105K10NT/18151137'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '9.02.2024 20:03:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'GMC04X7R105K10NT'
+PRP Part_Status 'Active'
+PRP partid '49948'
+PRP price '0.02'
+PRP series 'GMC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-GMC04X7R105K10NTCT-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.55mm)'
+PRP Tolerance '±10%'
+PRP value '1 µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 38.77112896 16.33887512 135 N 59 44 1
+TOP 1 38.14887468 16.9611294 135 N 5 17 2
+#
+# CMP 32
+CMP 2 37.62499714 15.7750002 225 N C14 1__F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/gmc_series-2.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X7R105K10NT/18151137'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '9.02.2024 20:03:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'GMC04X7R105K10NT'
+PRP Part_Status 'Active'
+PRP partid '49948'
+PRP price '0.02'
+PRP series 'GMC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-GMC04X7R105K10NTCT-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.55mm)'
+PRP Tolerance '±10%'
+PRP value '1 µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 37.93612428 15.46387306 135 N 59 45 1
+TOP 1 37.31387 16.08612734 135 N 5 18 2
+#
+# CMP 33
+CMP 2 22.40000092 15.40000222 45 N C13 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 22.08887378 15.71112936 315 N 59 30 1
+TOP 1 22.71112806 15.08887508 315 N 3 1 2
+#
+# CMP 34
+CMP 2 21.5250014 14.55000138 45 N C12 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 21.21387426 14.86112852 315 N 59 29 1
+TOP 1 21.83612854 14.23887424 315 N 3 0 2
+#
+# CMP 35
+CMP 2 35.5788722 17.71113044 225 N C11 1pF ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1pF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/C0GNP0-Dielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/04023A1R0BAT2A/478-11739-1-ND/8573375'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '04023A1R0BAT2A'
+PRP Part_Status 'Active'
+PRP partid '7016'
+PRP price '0.06'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11739-1-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±0.1pF'
+PRP value '1pF'
+PRP Voltage_-_Rated '25V'
+TOP 0 35.88999934 17.4000033 135 N 59 46 1
+TOP 1 35.26774506 18.02225758 135 N 24 2 2
+#
+# CMP 36
+CMP 2 37.23887396 19.46112948 45 N C10 1pF ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1pF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/C0GNP0-Dielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/04023A1R0BAT2A/478-11739-1-ND/8573375'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '04023A1R0BAT2A'
+PRP Part_Status 'Active'
+PRP partid '7016'
+PRP price '0.06'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11739-1-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±0.1pF'
+PRP value '1pF'
+PRP Voltage_-_Rated '25V'
+TOP 0 36.92774682 19.77225662 315 N 59 47 1
+TOP 1 37.5500011 19.15000234 315 N 23 2 2
+#
+# CMP 37
+CMP 2 24.87499978 20.97499996 45 N C9 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 24.56387264 21.2861271 315 N 59 14 1
+TOP 1 25.18612692 20.66387282 315 N 5 3 2
+#
+# CMP 38
+CMP 2 31.7999999 9.7249996 225 N C8 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 32.11112704 9.41387246 135 N 59 54 1
+TOP 1 31.48887276 10.03612674 135 N 5 20 2
+#
+# CMP 39
+CMP 2 32.82499912 10.77500004 45 N C7 10pF ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '10pF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/C0GNP0-Dielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YA100KAT2A/478-12649-1-ND/9949182'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YA100KAT2A'
+PRP Part_Status 'Active'
+PRP partid '7279'
+PRP price '0.01'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-12649-1-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±10%'
+PRP value '10pF'
+PRP Voltage_-_Rated '16V'
+TOP 0 32.51387198 11.08612718 315 N 59 36 1
+TOP 1 33.13612626 10.4638729 315 N 2 2 2
+#
+# CMP 40
+CMP 2 4.50000116 23.50000126 0 N C6 1__F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/gmc_series-2.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X7R105K10NT/18151137'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '9.02.2024 20:03:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'GMC04X7R105K10NT'
+PRP Part_Status 'Active'
+PRP partid '49948'
+PRP price '0.02'
+PRP series 'GMC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-GMC04X7R105K10NTCT-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.55mm)'
+PRP Tolerance '±10%'
+PRP value '1 µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 4.06000204 23.50000126 270 N 59 24 1
+TOP 1 4.94000282 23.50000126 270 N 60 1 2
+#
+# CMP 41
+CMP 2 34.78887378 20.06112828 225 N C5 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 35.10000092 19.75000114 135 N 59 42 1
+TOP 1 34.47774664 20.37225542 135 N 4 3 2
+#
+# CMP 42
+CMP 2 33.16387322 20.91112658 315 N C4 0.1_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '0.1µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YD104JAT2A/478-11505-1-ND/8107706'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:42'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YD104JAT2A'
+PRP Part_Status 'Active'
+PRP partid '11013'
+PRP price '0.15'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-11505-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±5%'
+PRP value '0.1µF'
+PRP Voltage_-_Rated '16V'
+TOP 0 32.85274608 20.59999944 225 N 59 43 1
+TOP 1 33.47500036 21.22225372 225 N 5 16 2
+#
+# CMP 43
+CMP 2 32.26387248 21.7861261 315 N C3 1__F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '1 µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'https://88ce57.p3cdn1.secureserver.net/wp-content/uploads/2023/01/gmc_series-2.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC04X7R105K10NT/18151137'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '9.02.2024 20:03:57'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'Cal-Chip Electronics, Inc.'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number 'GMC04X7R105K10NT'
+PRP Part_Status 'Active'
+PRP partid '49948'
+PRP price '0.02'
+PRP series 'GMC'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '4713-GMC04X7R105K10NTCT-ND'
+PRP Temperature_Coefficient 'X7R'
+PRP Thickness_(Max) '0.022_ (0.55mm)'
+PRP Tolerance '±10%'
+PRP value '1 µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 31.95274534 21.47499896 225 N 59 40 1
+TOP 1 32.57499962 22.09725324 225 N 5 13 2
+#
+# CMP 44
+CMP 2 34.06387396 22.71112806 225 N C2 10_F ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '10µF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/cx5r.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402ZD106MAT2A/478-10052-1-ND/6564275'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 85°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402ZD106MAT2A'
+PRP Part_Status 'Active'
+PRP partid '6854'
+PRP price '0.24'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-10052-1-ND'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.028_ (0.71mm)'
+PRP Tolerance '±20%'
+PRP value '10µF'
+PRP Voltage_-_Rated '10V'
+TOP 0 34.3750011 22.40000092 135 N 59 41 1
+TOP 1 33.75274682 23.0222552 135 N 5 14 2
+#
+# CMP 45
+CMP 2 36.80000006 14.77499966 45 N C1 10pF ;0=1,1=0.5200
+PRP Applications 'General Purpose'
+PRP Capacitance '10pF'
+PRP componentlink1description 'Datasheet'
+PRP componentlink1url 'http://datasheets.avx.com/C0GNP0-Dielectric.pdf'
+PRP componentlink2description 'DigiKey Link'
+PRP componentlink2url 'http://digikey.com/product-detail/en/avx-corporation/0402YA100KAT2A/478-12649-1-ND/9949182'
+PRP Device_Package '0402 (1005 Metric)'
+PRP lastupdated '8.02.2022 12:26:50'
+PRP Lifecycle_Status 'Active'
+PRP manufacturer 'AVX Corporation'
+PRP Minimum_Order '1'
+PRP Mounting_Type 'Surface Mount, MLCC'
+PRP Operating_Temperature '-55°C ~ 125°C'
+PRP Package_/_Case '0402 (1005 Metric)'
+PRP packaging 'TapeAndReel'
+PRP Part_Number '0402YA100KAT2A'
+PRP Part_Status 'Active'
+PRP partid '7279'
+PRP price '0.01'
+PRP series '-'
+PRP Size_/_Dimension '0.039_ L x 0.020_ W (1.00mm x 0.50mm)'
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '478-12649-1-ND'
+PRP Temperature_Coefficient 'C0G, NP0'
+PRP Thickness_(Max) '0.022_ (0.56mm)'
+PRP Tolerance '±10%'
+PRP value '10pF'
+PRP Voltage_-_Rated '16V'
+TOP 0 36.48887292 15.0861268 315 N 1 2 1
+TOP 1 37.1111272 14.46387252 315 N 59 39 2
+#
+# CMP 46
+CMP 14 16.62500104 9.87500184 0 N B1 W25Q64JVXGIQ_TR ;0=1,1=0.0000
+PRP Arrow_Part_Number 'W25Q64JVXGIQ TR'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/w25q64jvxgiqtr/winbond-electronics?utm_currency=USD&region=nac'
+PRP Datasheet_Link 'https://www.mouser.com/datasheet/2/949/w25q64jv_revj_03272018_plus-1489671.pdf'
+PRP Geometry.Height '0.5mm'
+PRP Manufacturer_Name 'Winbond'
+PRP Manufacturer_Part_Number 'W25Q64JVXGIQ TR'
+PRP Mouser_Part_Number '454-W25Q64JVXGIQTR'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/Winbond/W25Q64JVXGIQ-TR?qs=qSfuJ%252Bfl%2Fd5kgMLGcal3yA%3D%3D'
+TOP 0 14.67499986 11.07500198 0 N 16 0 1
+TOP 1 14.67499986 10.27500104 0 N 13 0 2
+TOP 2 14.67499986 9.47500264 0 N 12 0 3
+TOP 3 14.67499986 8.6750017 0 N 59 32 4
+TOP 4 18.57500222 8.6750017 0 N 15 0 5
+TOP 5 18.57500222 9.47500264 0 N 17 0 6
+TOP 6 18.57500222 10.27500104 0 N 14 0 7
+TOP 7 18.57500222 11.07500198 0 N 3 2 8
+TOP 8 16.62500104 9.87500184 270 N 59 31 9
+#
