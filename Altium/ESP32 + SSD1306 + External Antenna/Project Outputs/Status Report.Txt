@@ -1,22 +1,14 @@
-Output: Gerber Files
-Type  : Gerber
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:42:39 On 22.09.2025
+
+Output: Generates pick and place files
+Type  : Pick Place
 From  : Variant [[No Variations]] of PCB Document [PCB1.PcbDoc]
-   Generated File[PCB1.GTO]
-   Generated File[PCB1.GTP]
-   Generated File[PCB1.GTS]
-   Generated File[PCB1.GTL]
-   Generated File[PCB1.GP1]
-   Generated File[PCB1.GP2]
-   Generated File[PCB1.GBL]
-   Generated File[PCB1.GBS]
-   Generated File[PCB1.GBP]
-   Generated File[PCB1.GBO]
-   Generated File[PCB1.GM]
-   Generated File[PCB1.EXTREP]
-   Generated File[PCB1.REP]
+   Generated File[Pick Place for PCB1.txt]
 
 
-Files Generated   : 13
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 16:40:51 On 20.09.2025
+Finished Output Generation At 10:42:41 On 22.09.2025

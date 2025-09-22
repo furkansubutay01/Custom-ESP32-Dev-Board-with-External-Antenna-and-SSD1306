@@ -1,0 +1,60 @@
+Altium Designer Pick and Place Locations
+C:\Users\Subutay\Desktop\ESP32 + SSD1306 + External Antenna\..\Pick Place\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       22.09.25
+Time:       10:42
+Revision:   a5d5ad079b73c28db8df5effadcea0365f52e75f
+Variant:    No variations
+Units used: mil
+
+Designator Comment             Layer    Footprint           Center-X(mil) Center-Y(mil) Rotation Description                                                                               
+Y1         "40 MHz"            TopLayer NDK_NX3225SA        1371.063      501.969       45       "CRYSTAL 40.0000MHZ 10PF SMD"                                                             
+U4         AMS1117-3.3         TopLayer SOT229P700X180-4N   654.528       952.756       180      "Sot223/Pkg 1-Amp 3.3-Volt Low Drop Out Voltage Regulatator"                              
+U3         SSD1306             TopLayer SSD1306             2047.244      1129.823      0        "SSD1306 128x64 0.96 inch OLED Display"                                                   
+U2         USBLC6-2SC6         TopLayer SOT95P280X145-6N    433.071       650.000       0        "17V Clamp 5A (8/20Âµs) Ipp Tvs Diode Surface Mount SOT-23-6"                             
+U1         ESP32-S3R8          TopLayer FP-ESP32-S3R8-IPC_A 1122.047      650.000       225      "ESP32-S3R8 RF System on a Chip - SoC SMD IC, Dual-Core MCU, Wi-Fi 2.4G BLE 5.0 Combo"    
+S2         B3FS-1012P          TopLayer OMRON_B3FS-1012P    255.905       197.638       0        "SWITCH TACTILE SPST-NO 0.05A 24V"                                                        
+S1         B3FS-1012P          TopLayer OMRON_B3FS-1012P    255.905       1102.362      180      "SWITCH TACTILE SPST-NO 0.05A 24V"                                                        
+R7         "1 kOhms"           TopLayer RES_0402_1005       654.528       234.252       0        "RES SMD 1K OHM 5% 1/5W 0402"                                                             
+R6         "10 kOhms"          TopLayer RES_0402_1005       334.646       374.803       0        "RES SMD 10K OHM 1% 1/10W 0402"                                                           
+R5         "5.1 kOhms"         TopLayer YAGEO_RES_0402_1005 393.701       748.032       180      "RES SMD 5.1K OHM 5% 1/16W 0402"                                                          
+R4         "5.1 kOhms"         TopLayer YAGEO_RES_0402_1005 393.701       551.181       180      "RES SMD 5.1K OHM 5% 1/16W 0402"                                                          
+R3         "499 Ohms"          TopLayer RES_0402_1005       1419.291      403.543       225      "RES 499 OHM 1% 1/16W 0402"                                                               
+R2         "10 kOhms"          TopLayer RES_0402_1005       334.646       925.197       0        "RES SMD 10K OHM 1% 1/10W 0402"                                                           
+L2         "3.3 nH"            TopLayer Murata_LQG15_0402   1433.223      731.737       135      "FIXED IND 3.3NH 800MA 0.125OHM"                                                          
+L1         "2 nH"              TopLayer IND_0402_1005       1405.074      830.163       315      "FIXED IND 2.0NH 1A 50 MOHM SMD"                                                          
+J6         "1x6 Male Pin"      TopLayer 1X6_MALE_PIN        947.244       1240.945      270      ""                                                                                        
+J5         "1x6 Male Pin"      TopLayer 1X6_MALE_PIN        947.244       59.055        270      ""                                                                                        
+J4         "1x16 Male Pin"     TopLayer 1X16_MALE_PIN       2047.244      1240.945      270      ""                                                                                        
+J3         "1x16 Male Pin"     TopLayer 1X16_MALE_PIN       2047.244      59.055        270      ""                                                                                        
+J2         1054500101          TopLayer Molex_1054500101    207.677       650.394       270      "CONN RCP USB3.1 TYPEC 24P SMD RA"                                                        
+J1         0731000114          TopLayer MOLEX_SD-73100-0114 2795.276      650.000       0        "CONN SMA RCPT R/A 50 OHM PCB"                                                            
+FB1        "33 Ohms @ 100 MHz" TopLayer FER_0402_1005       629.921       650.000       270      "FBEAD 0402 33 OHM .40DC 300MA"                                                           
+D1         Red                 TopLayer LED_0603_1608_RED   654.528       165.354       0        "0603 LED RED 623NM DOMINANT, 628"                                                        
+C23        "1 µF"              TopLayer CAP_0402_1005       177.165       374.803       0        "CAP0402 X7R 1UF 10% 10V"                                                                 
+C22        "10 µF"             TopLayer CAP_0805_2012       560.039       769.685       0        "CAP CER 10UF 25V X6S 0805"                                                               
+C21        0.1µF               TopLayer CAP_0805_2012       754.921       769.685       180      "CAP CER 0.1UF 50V X7R 0805"                                                              
+C20        0.1µF               TopLayer CAP_0805_2012       762.795       1135.827      180      "CAP CER 0.1UF 50V X7R 0805"                                                              
+C19        "10 µF"             TopLayer CAP_0805_2012       563.976       1135.827      0        "CAP CER 10UF 25V X6S 0805"                                                               
+C18        "4.7 µF"            TopLayer CAP_0805_2012       629.921       551.181       0        "CAP CER 4.7UF 16V X7R 0805"                                                              
+C17        0.1µF               TopLayer CAP_0402_1005       688.976       650.000       270      "CAP CER 0.1UF 16V X7R 0402"                                                              
+C16        10000pF             TopLayer CAP_0402_1005       570.866       650.000       90       "CAP CER 10000PF 16V X7R 0402"                                                            
+C15        "1 µF"              TopLayer CAP_0402_1005       1514.173      655.512       135      "CAP0402 X7R 1UF 10% 10V"                                                                 
+C14        "1 µF"              TopLayer CAP_0402_1005       1481.299      621.063       135      "CAP0402 X7R 1UF 10% 10V"                                                                 
+C13        0.1µF               TopLayer CAP_0402_1005       881.890       606.299       315      "CAP CER 0.1UF 16V X5R 0402"                                                              
+C12        0.1µF               TopLayer CAP_0402_1005       847.441       572.835       315      "CAP CER 0.1UF 16V X5R 0402"                                                              
+C11        1pF                 TopLayer CAP_0402_1005       1400.743      697.289       135      "CAP CER 1PF 25V NP0 0402"                                                                
+C10        1pF                 TopLayer CAP_0402_1005       1466.097      766.186       315      "CAP CER 1PF 25V NP0 0402"                                                                
+C9         0.1µF               TopLayer CAP_0402_1005       979.331       825.787       315      "CAP CER 0.1UF 16V X5R 0402"                                                              
+C8         0.1µF               TopLayer CAP_0402_1005       1251.968      382.874       135      "CAP CER 0.1UF 16V X5R 0402"                                                              
+C7         10pF                TopLayer CAP_0402_1005       1292.323      424.213       315      "CAP CER 10PF 16V NP0 0402"                                                               
+C6         "1 µF"              TopLayer CAP_0402_1005       177.165       925.197       0        "CAP0402 X7R 1UF 10% 10V"                                                                 
+C5         0.1µF               TopLayer CAP_0402_1005       1369.641      789.808       135      "CAP CER 0.1UF 16V X5R 0402"                                                              
+C4         0.1µF               TopLayer CAP_0402_1005       1305.664      823.273       45       "CAP CER 0.1UF 16V X5R 0402"                                                              
+C3         "1 µF"              TopLayer CAP_0402_1005       1270.231      857.721       45       "CAP0402 X7R 1UF 10% 10V"                                                                 
+C2         10µF                TopLayer CAP_0402_1005       1341.097      894.139       135      "CAP CER 10UF 10V X5R 0402"                                                               
+C1         10pF                TopLayer CAP_0402_1005       1448.819      581.693       315      "CAP CER 10PF 16V NP0 0402"                                                               
+B1         W25Q64JVXGIQ_TR     TopLayer SON80P400X400X50-9N 654.528       388.780       0        "NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 64M-bit 8M x 8 6ns 8-Pin XSON EP T/R" 
